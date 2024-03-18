@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(Imagenes/Portada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+.menu .logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+}
+.menu .navbar ul{
+    list-style: none;
+
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(146, 80, 222);
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: aqua;
+}
+
+#menu {
+    display: none;
+
+}
+.menu-icono {
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-tex {
+    margin-top: -40px;
+    text-align: center;
+    width: 700px;
+
+}
+.header-tex h1{
+    color: black;
+    font-size: 45px;
+
+}
+.header-tex p {
+    margin-top: 35px;
+    color: black;
+}
+.btn-1{
+    display: inline-block;
+    background-color: blue;
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: bisque;
+}
+.btn-1 :hover {
+    background-color: brown;
+}
+.seccion-img {
+    text-align: center;
+    padding: 50px 0px;
+}
+.seccion-img img {
+    margin-top:  -200px;
+    width: 500px;
+}
